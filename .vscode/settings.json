@@ -1,0 +1,14 @@
+{
+    "dotnet.preferCSharpExtension": true,
+    "Lua.runtime.unicodeName": true,
+    "Lua.diagnostics.disable": [
+        "global-in-nil-env",
+        "cast-local-type",
+        "undefined-global",
+        "need-check-nil",
+        "param-type-mismatch"
+    ],
+    "Lua.diagnostics.globals": [
+        "CS"
+    ]
+}
